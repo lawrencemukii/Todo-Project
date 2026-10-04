@@ -1,0 +1,92 @@
+header {
+  background-color: #54cde6;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+main > *{
+  margin: 5px 0;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+#new-task {  
+  border: 2px solid black;
+}
+
+footer {
+  background-color: #54cde6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-radius: 5px;
+  margin-left: -10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#add-task{
+  width: 308px;
+  height: 39px;
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+button:hover {
+  background-color: limegreen;
+  transition: transform 0.5s ease;
+  transform: scale(1.05);
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border: none;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+li button:hover {
+  background-color: darkred;
+  transition: transform 0.5s ease;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
